@@ -1,0 +1,32 @@
+* {box-sizing: border-box;}
+
+
+.main {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #23424A;
+    padding: 5em;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+h1,
+p,
+a {
+    width: 60%;
+}
+
+h1 {
+    font-size: clamp(16px, 5vw, 48px);
+}
+
+p {
+    font-size: clamp(10px, 2vw, 21px);
+}
+
+a {
+    font-size: 21px;
+    background-color: #38CFD9;
+    padding: 0.6em;
+    border-radius: 1.7em;
+}
